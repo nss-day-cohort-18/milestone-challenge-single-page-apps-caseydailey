@@ -1,25 +1,14 @@
 # Single Page Applications Milestone Challenge
 
-## Setup
+to Run:
 
-1. Create the working directory for the challenge first.
+```bash
+cd lib 
+npm install
+grunt
+```
 
-    ```bash
-    mkdir -p ~/workspace/challenges/spa && cd $_
-    ```
 
-1. Clone this repository and `cd` into the directory it creates.
-1. Now run the following commands.
-
-    ```bash
-    git checkout -b challenge
-    touch index.html
-    mkdir css && touch css/styles.css
-    mkdir javascripts && touch javascripts/main.js
-    touch inventory.json
-    ```
-
-You are now ready to work in the `challenge` branch.
 
 When your work in complete, push up the branch (`git push origin challenge`) and submit the pull request on Github.
 
