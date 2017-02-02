@@ -1,0 +1,39 @@
+.modal-content {
+	border-radius: 0;
+}
+
+.modal-header {
+	border-bottom: none;
+}
+
+.modal-footer {
+	border-top: none;
+	margin: 0;
+	padding: 0 20px 20px;
+}
+
+.modal-dialog {
+
+}
+
+.thumbnail {
+	margin-bottom:6px;
+}
+
+.left,.right{
+  background-image:none;
+  width:5%;
+  float: left;
+}
+
+.modal-footer a {
+	color:#000;
+}
+
+.btn-default {
+	border: none;
+}
+
+.btn {
+	padding: 0;
+}
