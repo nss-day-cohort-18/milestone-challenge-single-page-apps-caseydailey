@@ -10,11 +10,10 @@ grunt
 
 
 
-When your work in complete, push up the branch (`git push origin challenge`) and submit the pull request on Github.
+seeking feed back on logical structure and syntactic approach
 
-## Instructions
 
-You operate a used car lot, and need to have an application where you can update the description and availability of each car in your inventory. You are going to using the Bootstrap grid to lay out your HTML structure.
+
 
 ### Behavior
 
