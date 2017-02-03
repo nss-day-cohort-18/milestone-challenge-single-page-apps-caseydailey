@@ -1,33 +1,25 @@
 'use strict';
-console.log('CarLot iife #1 is linked');
-
-var gallery = document.getElementById("gallery");
-var carsArray = "";
-var card = "";
 
 var CarLot = (function(otherCarLot){
 
 		var inventory = [];
 
-		var dataRequest = new XMLHttpRequest();
+		otherCarLot.loadInventory = function(){
+		
 		dataRequest.open("GET", "../inventory.json");
 		dataRequest.send();
 
-		/////// open and send the request
-		dataRequest.addEventListener('load', loadComplete);
-		dataRequest.addEventListener('error', loadFailed);
-
-		function loadComplete(load){
+		otherCarLot.loadComplete = function(load){
 			let carData = JSON.parse(load.target.responseText);
 			storeCars(carData, inventory);
 		}
 
-		function loadFailed(load) {
+		 otherCarLot.loadFailed = function(load) {
 			console.log("data failed", load.target.responseText);
 		}
 		
 		// iterate through and push each object to the inventory array
-		function storeCars (carObject, array){
+		function storeCars(carObject, array){
 		
 			for (var car in carObject){
 				array = carObject[car];
@@ -36,12 +28,13 @@ var CarLot = (function(otherCarLot){
 			  }
 		}
 
-		function pushCars (array) {
-			array.forEach(obj=>inventory.push(obj)); 
+		function pushCars(array) {
+			array.forEach(obj=>inventory.push(obj));
+			console.log('inventory in push function:', inventory); 
 		}
+			console.log('inventory out of push function:', inventory);
 
-		
-		function  displayCars(array) {
+		function displayCars(array) {
 
 			var counter = 0;
 			array.forEach(car => {
@@ -64,17 +57,14 @@ var CarLot = (function(otherCarLot){
 			}); 
 
 		}//end display function
+	};// end the big loader
 
 	// public method to get inventory 
 	otherCarLot.getInventory = function(){
 		return inventory;
 	};
 
-	// /////// open and send the request
-	// dataRequest.open("GET", "../inventory.json");
-	// dataRequest.send();
-
-	/////// returns augmented iife
+	
 	return otherCarLot;
 
 
