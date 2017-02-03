@@ -2,24 +2,16 @@
 
 var CarLot = (function(otherCarLot){
 
+//add a method to activate all events in app
+
 	otherCarLot.activateEvents = function(){
 
-		dataRequest.addEventListener('load', (e)=>{
-			CarLot.loadComplete(e);
-		});
-		dataRequest.addEventListener('error', (e)=>{
-			CarLot.loadFailed(e);
-		});
-
-		gallery.addEventListener("click", (e)=>{
-			CarLot.activateCard(e);
-		});
-		input.addEventListener("keyup", (e)=>{
-			CarLot.reWriteCard(e);
-		});
-		input.addEventListener("keypress", (e)=>{
-			CarLot.deActivateCard(e);
-		});
+		dataRequest.addEventListener('load', CarLot.loadComplete);
+		dataRequest.addEventListener('error', CarLot.loadFailed);
+		gallery.addEventListener("click", CarLot.activateCard);
+		input.addEventListener("keyup", CarLot.reWriteCard);
+		input.addEventListener("keypress", CarLot.deActivateCard);
+		
 	};
 
 
