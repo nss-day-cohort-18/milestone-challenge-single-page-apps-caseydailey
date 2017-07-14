@@ -1,0 +1,36 @@
+{
+  "name": "carlot",
+  "version": "1.0.0",
+  "description": "singl-page-app-milestone-challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nss-day-cohort-18/milestone-challenge-single-page-apps-caseydailey.git"
+  },
+  "keywords": [
+    "xml",
+    "iife",
+    "events"
+  ],
+  "author": "casey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nss-day-cohort-18/milestone-challenge-single-page-apps-caseydailey/issues"
+  },
+  "homepage": "https://github.com/nss-day-cohort-18/milestone-challenge-single-page-apps-caseydailey#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jquery": "^3.1.1",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "matchdep": "^1.0.1"
+  }
+}

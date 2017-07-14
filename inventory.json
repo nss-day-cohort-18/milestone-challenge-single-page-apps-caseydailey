@@ -1,0 +1,52 @@
+{
+  "cars": [
+    {
+      "make": "Austin",
+      "model": "Metro",
+      "year": "1983",
+      "image": "images/1983-austin-metro.jpg",
+      "price": "27,003.99",
+      "description": "The Metro is a supermini economy car that was produced by the Austin Rover Group division of British Leyland.   It was launched in 1980 as the Austin miniMetro."
+    },
+    {
+      "make": "Ford",
+      "model": "Fiesta",
+      "year": "1983",
+      "image": "images/1983-ford-fiesta.jpg",
+      "price": "27,003.99",
+      "description": "Fiesta Mark II appeared towards the end of summer 1983. It was a second generation Fiesta, following the first generation which were manufactured from 1976–1983."
+    },
+    {
+      "make": "Peugeot",
+      "model": "205GTI",
+      "year": "1983",
+      "image": "images/1983-Peugeot-205GTi.jpeg",
+      "price": "27,003.99",
+      "description": "The Peugeot 205 is a supermini produced by the French car manufacturer Peugeot between 1983 and 1998. The 205 was a game-changer for Peugeot back in 1983."
+    },
+    {
+      "make": "Yugo",
+      "model": "Yugo",
+      "year": "1986",
+      "image": "images/1986-yugo.jpg",
+      "price": "27,003.99",
+      "description": "The cheapest car of the ’80s, made in Yugoslavia and brought to the USA. Owners complained about everything – engine problems, steering problems, problems with the stereo, problems with the seat belt, problems with the floor."
+    },
+    {
+      "make": "Dodge",
+      "model": "Caravan",
+      "year": "1987",
+      "image": "images/1987-dodge-caravan.jpg",
+      "price": "27,003.99",
+      "description": "The Caravan had lots of interior space, removable seating and a sliding side door, and it was roomy enough that a front-seat passenger could maneuver to the back of the minivan while it was in motion. "
+    },
+    {
+      "make": "Fiat",
+      "model": "Panda",
+      "year": "1989",
+      "image": "images/1989-fiat-panda.jpg",
+      "price": "27,003.99",
+      "description": "Introduced as a \"peasant car\", these 80s cars were boxlike and mechanically simple. Later versions of the car added various mechanical improvements but this spirit of robust simplicity was followed throughout the life of the model."
+    }
+  ]
+}
